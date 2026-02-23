@@ -175,7 +175,7 @@ st.markdown("""
 # ── Chargement du modèle ─────────────────────────────────────────
 @st.cache_resource
 def charger_modele():
-    return joblib.load('energisight_model_sans_estar_optimise.pkl')
+    return joblib.load('energisight_model_final.pkl')
 
 modele = charger_modele()
 
